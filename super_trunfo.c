@@ -8,13 +8,13 @@ int main(){
     float area, pib;
 
     printf("Estado: ");
-    scanf("%c", &estado);  // Corrigido para %c para ler um único caractere.
+    scanf("%c", &estado); 
     
     printf("Código: ");
-    scanf("%s", codigo);  // Corrigido para não usar & com o nome do array.
+    scanf("%s", codigo); 
 
     printf("Nome da Cidade: ");
-    scanf("%s", cidade);  // Corrigido para não usar & com o nome do array.
+    scanf("%s", cidade);
     
     printf("População: ");
     scanf("%d", &populacao);
